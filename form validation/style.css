@@ -1,16 +1,13 @@
 * {
     padding: 0;
     margin: 0;
-    /* outline: 1px solid red; */
 }
 
 body {
     height: 100vh;
-    /* line-height: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: linear-gradient(135deg,rgb(34, 34, 197) ,rgb(211, 12, 12)); */
 }
 
 .container{
@@ -27,7 +24,6 @@ form{
     height: 65%;
     display: flex;
     flex-direction: column;
-    /* justify-content: cent; */
     width: 90%;
     margin: auto;
 }
@@ -47,10 +43,8 @@ form{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
-    /* background-color: rgba(92, 89, 89, 0.596); */
     border: 1px solid rgba(0, 0, 0, 0.411);
     border-right: none;
-    /* color: ; */
 }
 
 .name input{
@@ -79,3 +73,4 @@ form{
     position: relative;
     bottom: 14px;
 }
+
