@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: 1px solid red; */
+}
+
+body {
+    height: 100vh;
+    /* line-height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(135deg,rgb(34, 34, 197) ,rgb(211, 12, 12)); */
+}
+
+.container{
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.055);
+    display: flex;
+}
+
+form{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: cent; */
+    width: 90%;
+    margin: auto;
+}
+
+.name, .email, .password{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    margin: auto;
+}
+
+.name button{
+    height: 33px;
+    width: 70px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    /* background-color: rgba(92, 89, 89, 0.596); */
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    border-right: none;
+    /* color: ; */
+}
+
+.name input{
+    height: 31px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.295);
+    width: 253px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.submit{
+    height: 33px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.603);
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    margin-left: 89px;
+    position: relative;
+    bottom: 14px;
+}
